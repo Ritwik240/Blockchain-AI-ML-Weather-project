@@ -69,8 +69,8 @@ def visualize_results(y_true, y_pred, cols):
     fig, axs = plt.subplots(len(cols), 1, figsize=(10, 15), sharex=True)
     fig.suptitle('AI Model Verification: Actual vs Predicted (Last 30 Samples)', fontsize=14)
     for i, col in enumerate(cols):
-        # Apply visual clipping for the graph
         display_pred = y_pred[-30:, i]
+        # Physically realistic clipping for plots
         if col in ["Rainfall_mm", "UV_Index"]:
             display_pred = np.maximum(0, display_pred)
             
@@ -101,7 +101,7 @@ def run_pipeline():
     scaler = MinMaxScaler()
     scaled = scaler.fit_transform(df[FEATS])
     
-    # Save Individual Scalers (Photo 2 structure)
+    # Save Individual Scalers (Matching Photo 2)
     for i, col in enumerate(METEO):
         col_scaler = MinMaxScaler()
         col_scaler.min_, col_scaler.scale_ = [scaler.min_[i]], [scaler.scale_[i]]
@@ -115,23 +115,22 @@ def run_pipeline():
         y.append(scaled[i+WIN:i+WIN+FOR, :len(METEO)])
     X, y = np.array(X), np.array(y)
     
+    # Training with 0.2 Validation Split
     model = build_cnn_lstm(WIN, len(FEATS), FOR, len(METEO))
-    model.fit(X, y, epochs=20, verbose=0, callbacks=[EarlyStopping(patience=3)])
+    model.fit(X, y, epochs=30, validation_split=0.2, verbose=1, 
+              callbacks=[EarlyStopping(monitor='val_loss', patience=3)])
     model.save('weather_model_cnn_lstm.h5')
     
-    # E. Evaluation & Accuracy Metrics
+    # Evaluation Metrics Generation
     test_preds = model.predict(X[-100:])
     y_true_real, y_pred_real = [], []
-    
     for i in range(len(test_preds)):
         row_true, row_pred = np.zeros((FOR, len(FEATS))), np.zeros((FOR, len(FEATS)))
-        row_true[:, :len(METEO)] = y[-100+i]
-        row_pred[:, :len(METEO)] = test_preds[i]
+        row_true[:, :len(METEO)], row_pred[:, :len(METEO)] = y[-100+i], test_preds[i]
         y_true_real.append(scaler.inverse_transform(row_true)[0, :len(METEO)])
         y_pred_real.append(scaler.inverse_transform(row_pred)[0, :len(METEO)])
         
     y_true_real, y_pred_real = np.array(y_true_real), np.array(y_pred_real)
-    
     metrics = {}
     for i, col in enumerate(METEO):
         metrics[col] = {
@@ -139,26 +138,25 @@ def run_pipeline():
             "R2": round(float(r2_score(y_true_real[:, i], y_pred_real[:, i])), 4)
         }
 
+    # Generate the PNG plot explicitly
     visualize_results(y_true_real, y_pred_real, METEO)
 
-    # G. 7-Day Forecast with Clipping & Confidence Intervals
+    # 7-Day Forecast Generation (Matching Photo 3)
     last_window = scaled[-WIN:].reshape(1, WIN, len(FEATS))
     future_preds = model.predict(last_window).reshape(FOR, len(METEO))
     
     forecast_list = []
     base_date = pd.to_datetime(df['Date'].iloc[-1])
+    temp_mae = metrics["Temperature_C"]["MAE"]
     
     for i in range(FOR):
         row = np.zeros(len(FEATS))
         row[:len(METEO)] = future_preds[i]
         real_vals = scaler.inverse_transform([row])[0]
         
-        # Applying np.maximum(0, ...) to ensure physical realism
-        temp = float(real_vals[0])
-        temp_mae = metrics["Temperature_C"]["MAE"]
         rain_mm = max(0.0, float(real_vals[3]))
         uv_val = max(0.0, float(real_vals[4]))
-        
+        temp = float(real_vals[0])
         prob = min(100, max(0, rain_mm * 15)) 
         
         forecast_list.append({
@@ -181,7 +179,7 @@ def run_pipeline():
         "model_accuracy": metrics,
         "forecast_snapshot_hash": hashlib.sha256(str(forecast_list).encode()).hexdigest()
     })
-    print("✅ Pipeline updated with Physical Constraints and Confidence Intervals.")
+    print("✅ Pipeline Success: Blockchain updated and files generated.")
 
 if __name__ == "__main__":
     run_pipeline()
