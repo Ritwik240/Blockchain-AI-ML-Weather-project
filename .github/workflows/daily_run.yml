@@ -1,0 +1,47 @@
+name: Weather AI & Blockchain Pipeline
+
+on:
+  schedule:
+    # 12:00 AM IST is 18:30 (6:30 PM) UTC the previous day
+    - cron: '30 18 * * *'
+  workflow_dispatch: # Allows manual trigger for testing
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push updated files back to the repo
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Step 1 - Fetch NASA & Open-Meteo Data
+      run: python generate_dataset.py
+
+    - name: Step 2 - Train CNN-LSTM & Update Ledger
+      run: python run_pipeline.py
+
+    - name: Step 3 - Commit and Push All Generated Files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        # Adds JSONs, Scalers (.joblib), Model (.h5), and Plots (.png)
+        git add Unified_Weather_Dataset_Latest.json \
+                weather_ledger_pos.json \
+                forecast_7days_with_alerts.json \
+                scaler_*.joblib \
+                forecast_verification.png \
+                weather_model_cnn_lstm.h5
+        git commit -m "Daily Update (IST): AI Forecast & PoS Ledger" || echo "No changes to commit"
+        git push
