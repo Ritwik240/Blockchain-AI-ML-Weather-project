@@ -31898,250 +31898,250 @@
     {
         "Date":"2025-12-01T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":16.535,
-        "Humidity_%":39.64,
+        "Temperature_C":16.21,
+        "Humidity_%":45.215,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":2.945
+        "WindSpeed_m\/s":2.865
     },
     {
         "Date":"2025-12-02T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":17.85,
-        "Humidity_%":46.23,
+        "Temperature_C":17.38,
+        "Humidity_%":54.325,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":3.04
+        "WindSpeed_m\/s":3.09
     },
     {
         "Date":"2025-12-03T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":15.7,
-        "Humidity_%":44.435,
+        "Temperature_C":15.26,
+        "Humidity_%":51.255,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":4.765
+        "WindSpeed_m\/s":4.615
     },
     {
         "Date":"2025-12-04T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":14.785,
-        "Humidity_%":45.045,
+        "Temperature_C":14.285,
+        "Humidity_%":52.72,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":5.27
+        "WindSpeed_m\/s":5.215
     },
     {
         "Date":"2025-12-05T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":14.68,
-        "Humidity_%":46.275,
+        "Temperature_C":14.31,
+        "Humidity_%":50.78,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":3.995
+        "WindSpeed_m\/s":3.81
     },
     {
         "Date":"2025-12-06T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":15.84,
-        "Humidity_%":44.69,
+        "Temperature_C":15.265,
+        "Humidity_%":52.23,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":6.655
+        "WindSpeed_m\/s":6.7
     },
     {
         "Date":"2025-12-07T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":16.49,
-        "Humidity_%":44.725,
+        "Temperature_C":15.84,
+        "Humidity_%":50.43,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":6.075
+        "WindSpeed_m\/s":6.15
     },
     {
         "Date":"2025-12-08T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":17.475,
-        "Humidity_%":42.87,
+        "Temperature_C":17.135,
+        "Humidity_%":49.64,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":6.785
+        "WindSpeed_m\/s":6.83
     },
     {
         "Date":"2025-12-09T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":16.99,
-        "Humidity_%":43.125,
+        "Temperature_C":16.085,
+        "Humidity_%":50.615,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":7.04
+        "WindSpeed_m\/s":7.17
     },
     {
         "Date":"2025-12-10T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":17.03,
-        "Humidity_%":45.475,
+        "Temperature_C":16.16,
+        "Humidity_%":51.165,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":5.41
+        "WindSpeed_m\/s":5.385
     },
     {
         "Date":"2025-12-11T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":17.05,
-        "Humidity_%":47.665,
+        "Temperature_C":16.62,
+        "Humidity_%":50.72,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":4.225
+        "WindSpeed_m\/s":4.16
     },
     {
         "Date":"2025-12-12T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":17.165,
-        "Humidity_%":48.66,
+        "Temperature_C":16.655,
+        "Humidity_%":53.045,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":2.69
+        "WindSpeed_m\/s":2.845
     },
     {
         "Date":"2025-12-13T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":17.785,
-        "Humidity_%":52.71,
+        "Temperature_C":17.16,
+        "Humidity_%":58.59,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":1.805
+        "WindSpeed_m\/s":1.945
     },
     {
         "Date":"2025-12-14T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":18.0,
-        "Humidity_%":57.3,
+        "Temperature_C":17.355,
+        "Humidity_%":60.17,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":1.43
+        "WindSpeed_m\/s":1.695
     },
     {
         "Date":"2025-12-15T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":16.54,
-        "Humidity_%":59.175,
+        "Temperature_C":16.46,
+        "Humidity_%":61.065,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":4.21
+        "WindSpeed_m\/s":4.065
     },
     {
         "Date":"2025-12-16T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":16.42,
-        "Humidity_%":55.335,
+        "Temperature_C":15.68,
+        "Humidity_%":61.415,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":6.615
+        "WindSpeed_m\/s":6.685
     },
     {
         "Date":"2025-12-17T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":16.395,
-        "Humidity_%":56.165,
+        "Temperature_C":15.95,
+        "Humidity_%":61.14,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":5.77
+        "WindSpeed_m\/s":5.62
     },
     {
         "Date":"2025-12-18T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":15.72,
-        "Humidity_%":62.85,
+        "Temperature_C":15.685,
+        "Humidity_%":69.005,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":4.09
+        "WindSpeed_m\/s":3.76
     },
     {
         "Date":"2025-12-19T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":15.7,
-        "Humidity_%":61.58,
+        "Temperature_C":15.575,
+        "Humidity_%":68.56,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":4.4
+        "WindSpeed_m\/s":4.165
     },
     {
         "Date":"2025-12-20T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":15.555,
-        "Humidity_%":56.99,
+        "Temperature_C":14.805,
+        "Humidity_%":62.59,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":2.725
+        "WindSpeed_m\/s":2.87
     },
     {
         "Date":"2025-12-21T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":15.14,
-        "Humidity_%":62.545,
+        "Temperature_C":14.175,
+        "Humidity_%":69.995,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":2.725
+        "WindSpeed_m\/s":3.155
     },
     {
         "Date":"2025-12-22T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":15.53,
-        "Humidity_%":66.435,
+        "Temperature_C":15.685,
+        "Humidity_%":71.04,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":2.34
+        "WindSpeed_m\/s":2.18
     },
     {
         "Date":"2025-12-23T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":16.605,
-        "Humidity_%":68.07,
+        "Temperature_C":16.325,
+        "Humidity_%":70.96,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":5.675
+        "WindSpeed_m\/s":5.725
     },
     {
         "Date":"2025-12-24T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":15.62,
-        "Humidity_%":58.56,
+        "Temperature_C":14.78,
+        "Humidity_%":63.075,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":6.305
+        "WindSpeed_m\/s":6.405
     },
     {
         "Date":"2025-12-25T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":14.94,
-        "Humidity_%":52.735,
+        "Temperature_C":14.455,
+        "Humidity_%":56.1,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":3.83
+        "WindSpeed_m\/s":3.675
     },
     {
         "Date":"2025-12-26T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":15.215,
-        "Humidity_%":52.61,
+        "Temperature_C":14.885,
+        "Humidity_%":56.99,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":3.49
+        "WindSpeed_m\/s":3.11
     },
     {
         "Date":"2025-12-27T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":14.775,
-        "Humidity_%":56.125,
+        "Temperature_C":14.375,
+        "Humidity_%":62.325,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":3.65
+        "WindSpeed_m\/s":3.305
     },
     {
         "Date":"2025-12-28T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":14.59,
-        "Humidity_%":57.255,
+        "Temperature_C":13.985,
+        "Humidity_%":62.985,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":3.225
+        "WindSpeed_m\/s":3.17
     },
     {
         "Date":"2025-12-29T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":14.51,
-        "Humidity_%":59.25,
+        "Temperature_C":14.175,
+        "Humidity_%":63.295,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":2.91
+        "WindSpeed_m\/s":2.735
     },
     {
         "Date":"2025-12-30T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":14.845,
-        "Humidity_%":57.105,
+        "Temperature_C":14.42,
+        "Humidity_%":59.925,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":3.39
+        "WindSpeed_m\/s":3.395
     },
     {
         "Date":"2025-12-31T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":14.12,
-        "Humidity_%":62.82,
+        "Temperature_C":13.41,
+        "Humidity_%":67.56,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":4.265
+        "WindSpeed_m\/s":4.55
     },
     {
         "Date":"2026-01-01T00:00:00.000",
@@ -32282,10 +32282,10 @@
     {
         "Date":"2026-01-18T00:00:00.000",
         "UV_Index":0.58,
-        "Temperature_C":14.8,
-        "Humidity_%":77.0,
+        "Temperature_C":15.655,
+        "Humidity_%":56.29,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":4.2
+        "WindSpeed_m\/s":3.01
     },
     {
         "Date":"2026-01-19T00:00:00.000",
@@ -32294,5 +32294,13 @@
         "Humidity_%":61.0,
         "Rainfall_mm":0.0,
         "WindSpeed_m\/s":3.6
+    },
+    {
+        "Date":"2026-01-20T00:00:00.000",
+        "UV_Index":0.58,
+        "Temperature_C":17.2,
+        "Humidity_%":61.0,
+        "Rainfall_mm":0.0,
+        "WindSpeed_m\/s":6.0
     }
 ]
