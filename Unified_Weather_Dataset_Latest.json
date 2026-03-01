@@ -32594,16 +32594,24 @@
     {
         "Date":"2026-02-26T00:00:00.000",
         "UV_Index":0.65,
-        "Temperature_C":22.5,
-        "Humidity_%":45.0,
+        "Temperature_C":22.14,
+        "Humidity_%":34.6,
         "Rainfall_mm":0.0,
-        "WindSpeed_m\/s":7.7
+        "WindSpeed_m\/s":5.52
     },
     {
         "Date":"2026-02-27T00:00:00.000",
         "UV_Index":0.65,
         "Temperature_C":23.7,
         "Humidity_%":42.0,
+        "Rainfall_mm":0.0,
+        "WindSpeed_m\/s":5.8
+    },
+    {
+        "Date":"2026-02-28T00:00:00.000",
+        "UV_Index":0.65,
+        "Temperature_C":25.9,
+        "Humidity_%":41.0,
         "Rainfall_mm":0.0,
         "WindSpeed_m\/s":5.8
     }
