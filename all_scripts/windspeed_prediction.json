@@ -1,0 +1,122 @@
+[
+    {
+        "datetime": "2026-03-05T00:00:00",
+        "windspeed": 34.41,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T01:00:00",
+        "windspeed": 35.62,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T02:00:00",
+        "windspeed": 36.18,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T03:00:00",
+        "windspeed": 35.7,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T04:00:00",
+        "windspeed": 37.63,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T05:00:00",
+        "windspeed": 42.23,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T06:00:00",
+        "windspeed": 46.27,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T07:00:00",
+        "windspeed": 47.25,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T08:00:00",
+        "windspeed": 50.33,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T09:00:00",
+        "windspeed": 54.47,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T10:00:00",
+        "windspeed": 54.06,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T11:00:00",
+        "windspeed": 54.72,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T12:00:00",
+        "windspeed": 49.83,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T13:00:00",
+        "windspeed": 42.39,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T14:00:00",
+        "windspeed": 42.34,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T15:00:00",
+        "windspeed": 40.03,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T16:00:00",
+        "windspeed": 41.1,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T17:00:00",
+        "windspeed": 40.21,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T18:00:00",
+        "windspeed": 37.11,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T19:00:00",
+        "windspeed": 36.14,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T20:00:00",
+        "windspeed": 38.87,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T21:00:00",
+        "windspeed": 38.38,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T22:00:00",
+        "windspeed": 38.92,
+        "unit": "km/h"
+    },
+    {
+        "datetime": "2026-03-05T23:00:00",
+        "windspeed": 34.91,
+        "unit": "km/h"
+    }
+]

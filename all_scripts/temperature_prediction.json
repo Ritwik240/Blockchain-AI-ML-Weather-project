@@ -1,0 +1,98 @@
+[
+    {
+        "datetime": "2026-03-05 00:00:00",
+        "predicted_temperature": 21.095149170426406
+    },
+    {
+        "datetime": "2026-03-05 01:00:00",
+        "predicted_temperature": 20.808964143918598
+    },
+    {
+        "datetime": "2026-03-05 02:00:00",
+        "predicted_temperature": 21.199065189301535
+    },
+    {
+        "datetime": "2026-03-05 03:00:00",
+        "predicted_temperature": 22.816731669824016
+    },
+    {
+        "datetime": "2026-03-05 04:00:00",
+        "predicted_temperature": 25.452916040426175
+    },
+    {
+        "datetime": "2026-03-05 05:00:00",
+        "predicted_temperature": 28.287237972332065
+    },
+    {
+        "datetime": "2026-03-05 06:00:00",
+        "predicted_temperature": 30.45695866027354
+    },
+    {
+        "datetime": "2026-03-05 07:00:00",
+        "predicted_temperature": 31.994029740327733
+    },
+    {
+        "datetime": "2026-03-05 08:00:00",
+        "predicted_temperature": 33.16526569042894
+    },
+    {
+        "datetime": "2026-03-05 09:00:00",
+        "predicted_temperature": 33.86901978958621
+    },
+    {
+        "datetime": "2026-03-05 10:00:00",
+        "predicted_temperature": 34.07632555738089
+    },
+    {
+        "datetime": "2026-03-05 11:00:00",
+        "predicted_temperature": 33.84003923897701
+    },
+    {
+        "datetime": "2026-03-05 12:00:00",
+        "predicted_temperature": 32.97446387863267
+    },
+    {
+        "datetime": "2026-03-05 13:00:00",
+        "predicted_temperature": 31.553598504848715
+    },
+    {
+        "datetime": "2026-03-05 14:00:00",
+        "predicted_temperature": 29.976860151296336
+    },
+    {
+        "datetime": "2026-03-05 15:00:00",
+        "predicted_temperature": 28.521081141563027
+    },
+    {
+        "datetime": "2026-03-05 16:00:00",
+        "predicted_temperature": 27.3108259546737
+    },
+    {
+        "datetime": "2026-03-05 17:00:00",
+        "predicted_temperature": 26.29954877110838
+    },
+    {
+        "datetime": "2026-03-05 18:00:00",
+        "predicted_temperature": 25.372442487425072
+    },
+    {
+        "datetime": "2026-03-05 19:00:00",
+        "predicted_temperature": 24.514085396926653
+    },
+    {
+        "datetime": "2026-03-05 20:00:00",
+        "predicted_temperature": 23.76033737077142
+    },
+    {
+        "datetime": "2026-03-05 21:00:00",
+        "predicted_temperature": 22.920779302100883
+    },
+    {
+        "datetime": "2026-03-05 22:00:00",
+        "predicted_temperature": 22.363009960828954
+    },
+    {
+        "datetime": "2026-03-05 23:00:00",
+        "predicted_temperature": 21.904025409989732
+    }
+]

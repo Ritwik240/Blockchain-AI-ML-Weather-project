@@ -1,0 +1,98 @@
+[
+    {
+        "datetime": "2026-03-05 00:00:00",
+        "predicted_humidity": 68.87322742971499
+    },
+    {
+        "datetime": "2026-03-05 01:00:00",
+        "predicted_humidity": 71.56288958775083
+    },
+    {
+        "datetime": "2026-03-05 02:00:00",
+        "predicted_humidity": 67.7113506351456
+    },
+    {
+        "datetime": "2026-03-05 03:00:00",
+        "predicted_humidity": 59.17020883847466
+    },
+    {
+        "datetime": "2026-03-05 04:00:00",
+        "predicted_humidity": 49.503100520883976
+    },
+    {
+        "datetime": "2026-03-05 05:00:00",
+        "predicted_humidity": 41.03457578924372
+    },
+    {
+        "datetime": "2026-03-05 06:00:00",
+        "predicted_humidity": 34.80479031134409
+    },
+    {
+        "datetime": "2026-03-05 07:00:00",
+        "predicted_humidity": 30.744917878119495
+    },
+    {
+        "datetime": "2026-03-05 08:00:00",
+        "predicted_humidity": 28.73299728196384
+    },
+    {
+        "datetime": "2026-03-05 09:00:00",
+        "predicted_humidity": 28.932322448423896
+    },
+    {
+        "datetime": "2026-03-05 10:00:00",
+        "predicted_humidity": 30.52996184258692
+    },
+    {
+        "datetime": "2026-03-05 11:00:00",
+        "predicted_humidity": 31.983167920533496
+    },
+    {
+        "datetime": "2026-03-05 12:00:00",
+        "predicted_humidity": 35.84507787308682
+    },
+    {
+        "datetime": "2026-03-05 13:00:00",
+        "predicted_humidity": 40.18238248069796
+    },
+    {
+        "datetime": "2026-03-05 14:00:00",
+        "predicted_humidity": 44.62101899587221
+    },
+    {
+        "datetime": "2026-03-05 15:00:00",
+        "predicted_humidity": 48.665393797650374
+    },
+    {
+        "datetime": "2026-03-05 16:00:00",
+        "predicted_humidity": 51.822916920958995
+    },
+    {
+        "datetime": "2026-03-05 17:00:00",
+        "predicted_humidity": 54.50365692558615
+    },
+    {
+        "datetime": "2026-03-05 18:00:00",
+        "predicted_humidity": 56.861240982258714
+    },
+    {
+        "datetime": "2026-03-05 19:00:00",
+        "predicted_humidity": 58.71669689015235
+    },
+    {
+        "datetime": "2026-03-05 20:00:00",
+        "predicted_humidity": 61.52531248550647
+    },
+    {
+        "datetime": "2026-03-05 21:00:00",
+        "predicted_humidity": 63.760009160345234
+    },
+    {
+        "datetime": "2026-03-05 22:00:00",
+        "predicted_humidity": 65.96207180271918
+    },
+    {
+        "datetime": "2026-03-05 23:00:00",
+        "predicted_humidity": 68.41134533475304
+    }
+]
