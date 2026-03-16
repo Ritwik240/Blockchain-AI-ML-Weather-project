@@ -1922,5 +1922,38 @@
         "previous_hash": "759010dd822b33be4177bc58de1077aceef8d208f2838bf24eb7dd02de9552d9",
         "validator": "Node_Alpha",
         "hash": "4c56bf582a2bc8ebdae823fe3bebffecff15d3e187c40c56aec1c6a27b4dc31a"
+    },
+    {
+        "index": 59,
+        "timestamp": "2026-03-16 19:34:42.435879",
+        "data": {
+            "data_hash": "b4d42778ad3bacec72b6671beff8659a6f69569d3d28d232f3e4b0d8fb0ba0d6",
+            "model_accuracy": {
+                "Temperature_C": {
+                    "MAE": 1.5109,
+                    "R2": 0.8037
+                },
+                "Humidity_%": {
+                    "MAE": 5.772,
+                    "R2": 0.687
+                },
+                "WindSpeed_m/s": {
+                    "MAE": 1.6067,
+                    "R2": -0.5461
+                },
+                "Rainfall_mm": {
+                    "MAE": 0.6257,
+                    "R2": -0.0295
+                },
+                "UV_Index": {
+                    "MAE": 0.1707,
+                    "R2": -13.2168
+                }
+            },
+            "forecast_snapshot_hash": "474c6a5ef2447bf2691b40b3d11e285c36fc555c3bf63a2cc452ee2021c45e1b"
+        },
+        "previous_hash": "4c56bf582a2bc8ebdae823fe3bebffecff15d3e187c40c56aec1c6a27b4dc31a",
+        "validator": "Node_Alpha",
+        "hash": "de494064c3b8b56388639c0c55ad977ea535f10cbe06c58697e448df741df674"
     }
 ]
